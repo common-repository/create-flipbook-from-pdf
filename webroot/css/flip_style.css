@@ -1,0 +1,1315 @@
+a{text-decoration: none;}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+}
+
+.flip_clear {
+	clear: both;
+}
+.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+body {
+	color: #636363;
+}
+.flip_m20 {
+    margin-top: 20px;
+}
+
+
+.flip_main_box {
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+    padding: 30px;
+}
+.flip_main_bg {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    box-shadow: 0px 0px 30px rgba(27, 91, 249, 0.4);
+    -webkit-box-shadow: 0px 0px 30px rgba(27, 91, 249, 0.4);
+    -moz-box-shadow: 0px 0px 30px rgba(27, 91, 249, 0.4);
+    -ms-box-shadow: 0px 0px 30px rgba(27, 91, 249, 0.4);
+    -o-box-shadow: 0px 0px 30px rgba(27, 91, 249, 0.4);
+}
+.flip_wt_bg {
+    background: #fff;
+    padding: 10px 15px;
+}
+.flip_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    padding: 5px 0px;
+}
+.flip_logo img {
+    /* height: 40px; */
+}
+.flip_setting_opt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+}
+.flip_setting_opt a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+}
+.flip_setting_opt a:hover {
+    color: #2770f3;
+}
+.flip_box {
+    padding: 20px 0;
+}
+.flip_flip_box h1 {
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 400;
+	display: table;
+    margin: 0 auto;
+    color: #2266f6;
+    text-align: center;
+    position: relative;
+}
+.flip_flip_box h1:before {
+    position: absolute;
+    content: "";
+    background: #55c4db;
+    height: 1px;
+    width: 100px;
+    left: -115px;
+    top: 17px;
+}
+.flip_flip_box h1:after {
+    position: absolute;
+    content: "";
+    background: #55c4db;
+    height: 1px;
+    width: 100px;
+    right: -115px;
+    top: 17px;
+}
+.flip_filter_box {
+	margin-top: 30px;
+}
+.flip_filter {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}
+.flip_filter i.fa.fa-filter {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    color: #2266f6;
+}
+.flip_filter select {
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    background: #fff;
+    margin: 0 0 0 10px;
+    border: 1px solid #8bb8ef;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #000;
+    width: 200px;
+    text-transform: capitalize;
+}
+.flip_create_flip {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+    margin-top: 30px;
+}
+.flip_create_flip button {
+    height: 35px;
+    border-radius: 0px;
+    padding: 0 13px;
+    color: #fff;
+    /* background: #64e1d3; */
+    /* border: 1px solid #55c4db; */
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+.flip_create_flip button:hover {
+    /* background: #256ef4; */
+    color: #fff;
+    /* border-color: #0a3fb9; */
+	background: #64e1d3;
+    background: -moz-linear-gradient(45deg, #64e1d3 0%, #1b5bf9 100%);
+    background: -webkit-linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    background: linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64e1d3', endColorstr='#1b5bf9',GradientType=1 );
+}
+.flip_create_flip button span.glyphicon.glyphicon-plus {
+    margin: 0 5px 0 0;
+}
+.flip_listing ul {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+}
+.flip_listing ul li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.flip_ehover6 small {
+    position: absolute;
+    color: #ffffff;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: 600;
+    background: #4bccbd;
+    padding: 0px 6px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.flip_ehover6:hover small {
+    opacity: 0;
+}
+.flip_ehover6 hr {
+	border-top: 1px solid #fff;
+}
+.flip_ehover6 h2 {
+    background: #64e1d3;
+    box-shadow: 0px 0px 20px #555;
+    line-height: 20px;
+    padding: 7px 0;
+}
+.flip_ehover6 p a:focus, .flip_ehover6 p a:hover {
+    color: #00ffe2;
+}
+.flip_ehover6 img {
+    filter: brightness(.7);
+    -webkit-filter: brightness(.7);
+}
+.flip_ehover6:hover img {
+    filter: brightness(.4);
+    -webkit-filter: brightness(.4);
+}
+p.flip_setting_icon {
+    width: 31px;
+}
+p.flip_setting_icon a i.fa.fa-cog {
+    opacity: 1;
+}
+/*.flip_listing ul li h2 {
+    background: #ffffff;
+    line-height: 20px;
+    padding: 6px 0px;
+	margin:0 auto;
+    color: #353535;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #55c4db;
+    border-left: 1px solid #55c4db;
+    border-right: 1px solid #55c4db;
+	transition:all 0.5s ease 0s;
+	-webkit-transition:all 0.5s ease 0s;
+	-moz-transition:all 0.5s ease 0s;
+	-ms-transition:all 0.5s ease 0s;
+	-o-transition:all 0.5s ease 0s;
+	
+}
+.flip_listing ul li:hover h2 {
+    color: #2266f6;
+	border-bottom: 1px solid #2266f6;
+    border-left: 1px solid #2266f6;
+    border-right: 1px solid #2266f6;
+	transition:all 0.5s ease 0s;
+	-webkit-transition:all 0.5s ease 0s;
+	-moz-transition:all 0.5s ease 0s;
+	-ms-transition:all 0.5s ease 0s;
+	-o-transition:all 0.5s ease 0s;
+}*/
+.flip_pagination {
+    display: table;
+    padding-left: 0;
+    margin: 20px auto;
+    border-radius: 0px;
+}
+.flip_pagination>li>a, .flip_pagination>li>span {
+    padding: 6px 14px;
+    color: #607D8B;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.flip_pagination>li:first-child>a, .flip_pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 34px;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    line-height: 31px;
+}
+.flip_pagination>li:last-child>a, .flip_pagination>li:last-child>span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	font-size: 34px;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    line-height: 31px;
+}
+.flip_pagination>.active>a, .flip_pagination>.active>a:focus, .flip_pagination>.active>a:hover, .flip_pagination>.active>span, .flip_pagination>.active>span:focus, .flip_pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    border-color: #dddddd;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+
+.flip_tabs {
+    margin-top: 0px;
+}
+.flip_tabs ul {
+	display: inline-block;
+	width: 100%;
+}
+.flip_tabs ul li {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    position: relative;
+	margin: 0;
+}
+.flip_tabs ul li.active:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #3a95e8;
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 20px;
+}
+.flip_tabs ul li a {
+    text-decoration: none;
+    color: #353535;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 14px 10px;
+    display: block;
+    border-right: 1px solid #d7e9fa;
+}
+.flip_tabs ul li:last-child a {
+    border-right: none;
+}
+.flip_tabs ul li.active {
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+.flip_tabs ul li.active a {
+	color: #fff;
+}
+.flip_tabs ul li:hover {
+	background: #e0f8f6;
+}
+.flip_tabs ul li.active:hover {
+	background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+
+
+.flip_create_flip_box {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 10px;
+	display: inline-block;
+    width: 100%;
+}
+.flip_file_icon i {
+    font-size: 100px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.flip_upload_btn_wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.flip_up_btn {
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 0px;
+    font-size: 22px;
+    cursor: pointer;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+    height: 70px;
+    width: 280px;
+    text-transform: uppercase;
+    font-weight: 500;
+	border: none;
+}
+.flip_up_btn i {
+    font-size: 35px;
+    display: inline-block;
+    vertical-align: sub;
+}
+.flip_upload_btn_wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 165px;
+    height: 48px;
+	cursor: pointer;
+}
+.flip_up_btn:hover {
+	background: #64e1d3;
+    background: -moz-linear-gradient(45deg, #64e1d3 0%, #1b5bf9 100%);
+    background: -webkit-linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    background: linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64e1d3', endColorstr='#1b5bf9',GradientType=1 );
+}
+.flip_file_upload {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 40px;
+    display: inline-block;
+    margin: 0;
+    width: 40%;
+    vertical-align: middle;
+    box-shadow: 10px 10px 0px #d9baff, 0px 0px 50px #cecece inset;
+    -webkit-box-shadow: 10px 10px 0px #d9baff, 0px 0px 50px #cecece inset;
+    -moz-box-shadow: 10px 10px 0px #d9baff, 0px 0px 50px #cecece inset;
+    -ms-box-shadow: 10px 10px 0px #d9baff, 0px 0px 50px #cecece inset;
+    -o-box-shadow: 10px 10px 0px #d9baff, 0px 0px 50px #cecece inset;
+}
+.flip_file_upload h5 {
+    margin: 0 auto 30px;
+    font-size: 20px;
+    color: #1a389a;
+    line-height: 33px;
+}
+.flip_file-upload {
+  margin: 0 auto;
+}
+.flip_file-upload-btn {
+    background: #7d0c92;
+    width: 250px;
+    display: table;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: 400;
+    margin: 0 auto 22px;
+}
+.flip_file-upload-btn:hover {
+    background: #04327b;
+}
+
+.flip_file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.flip_file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.flip_image-upload-wrap {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+.flip_image-dropping, .flip_image-upload-wrap:hover {
+    background-color: #fff;
+}
+.flip_image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+.flip_file-upload small {
+    background-color: #a9e8e2;
+    font-size: 0px;
+    height: 120px;
+    width: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+.flip_drag-text {
+    text-align: center;
+    color: #616161;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.flip_drag-text i.fa.fa-file-text-o {
+    font-size: 80px;
+    color: #dcdcdc;
+    margin: 0 0 20px 0;
+}
+.flip_file-upload-image {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+.flip_remove-image {
+    border: none;
+    transition: all .2s ease;
+    outline: none;
+    background: #cd4535;
+    width: auto;
+    display: table;
+    text-align: center;
+    padding: 10px 22px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: 400;
+    margin: auto;
+}
+.flip_remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+.flip_remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+span.flip_image-title {
+    padding: 0 0 0 25px;
+    position: relative;
+}
+span.flip_image-title:before {
+    content: "\f101";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 6px;
+    font-size: 16px;
+    top: -3px;
+}
+/* .flip_upl_btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+} */
+.flip_or1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    text-align: center;
+}
+
+.flip_next_page {
+    text-align: right;
+    margin-top: 40px;
+}
+.flip_next_page a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #64e1d3;
+    color: #fff;
+    padding: 4px 10px 3px 10px;
+}
+.flip_next_page a:focus {
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+	text-decoration: none;
+}
+
+.flip_choose_bg ul {
+	margin: 0 -11px;
+	padding: 0;
+}
+.flip_choose_bg ul li {
+    list-style: none;
+    float: left;
+    width: 20%;
+    padding: 0 11px;
+    margin-bottom: 22px;
+}
+.flip_hover, .flip_hover .flip_overlay {
+	width: 100%;
+	height: 100%;
+}
+.flip_hover, .flip_hover .flip_hover_controls {
+	text-align: center
+}
+.flip_hover {
+    position: relative;
+    cursor: default;
+}
+.flip_hover .flip_overlay {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+.flip_hover img {
+	display: block;
+	position: relative
+}
+.flip_hover .flip_hover_controls {
+    position: absolute;
+    font-size: 17px;
+    padding: 10px;
+    background: #f1f1f1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.flip_ehover .flip_hover_controls {
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+.flip_ehover .flip_hover_controls {
+	-webkit-transform: translateY(25px);
+	transform: translateY(25px);
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	box-shadow: 0px 0px 50px #ccc inset;
+    -webkit-box-shadow: 0px 0px 50px #ccc inset;
+    -moz-box-shadow: 0px 0px 50px #ccc inset;
+    -ms-box-shadow: 0px 0px 50px #ccc inset;
+    -o-box-shadow: 0px 0px 50px #ccc inset;
+}
+.flip_ehover:hover .flip_hover_controls {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background: #cfebfb;
+	box-shadow: 0px 0px 50px #b4dcf6 inset;
+    -webkit-box-shadow: 0px 0px 50px #b4dcf6 inset;
+    -moz-box-shadow: 0px 0px 50px #b4dcf6 inset;
+    -ms-box-shadow: 0px 0px 50px #b4dcf6 inset;
+    -o-box-shadow: 0px 0px 50px #b4dcf6 inset;
+}
+.flip_ehover .flip_overlay {
+	background-color: rgba(75, 75, 75, 0);
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+.flip_ehover:hover .flip_overlay {
+	background-color: rgba(75, 75, 75, 0.3);
+	cursor: pointer;
+}
+.flip_ehover .flip_hover_controls a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #04327b;
+    font-size: 23px;
+}
+.flip_ehover .flip_hover_controls a:hover {
+    color: #bc05da;
+}
+
+.flip_doc_listing .flip_ehover input[type=radio] {
+    display:none; 
+}
+.flip_doc_listing .flip_ehover label {
+    border: 3px solid #fff;
+	margin: 0;
+}
+.flip_doc_listing .flip_ehover label:hover {
+    border-color: #fdea48;
+    cursor: pointer;
+    outline: 3px solid #7a048d;
+}
+.flip_doc_listing .flip_ehover input[type=radio]:checked + label {
+    border-color: #fdea48;
+    cursor: pointer;
+    outline: 3px solid #7a048d;
+}
+
+.flip_overzoom {
+    position: absolute;
+    bottom: 8px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 23px;
+    padding: 5px 5px 2px 11px;
+    margin: 0 auto;
+    right: 3px;
+    color: #04327b;
+    border-radius: 30px 0px 0px 0px;
+}
+.flip_overzoom a {
+    color: #04327b;
+}
+
+
+
+
+/* css added */
+.flip_setting_box {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.flip_setting_main {
+    text-align: left;
+    margin: 0 0 40px 0;
+    display: inline-block;
+    width: 100%;
+}
+.flip_publish_switch {
+    width: 21%;
+    float: left;
+}
+.flip_publish_switch h5 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+.flip_publish_switch label.flip_switch {
+    margin: 0;
+    vertical-align: middle;
+}
+.flip_publish_box {
+    width: 79%;
+    text-align: left;
+    float: right;
+    padding-left: 25px;
+	border-left: 1px solid #8bb8ef;
+}
+.flip_publish_box input[type="text"] {
+    border: 1px solid #8bb8ef;
+    height: 35px;
+    width: 94%;
+    padding: 0 10px;
+}
+.flip_publish_box h5 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.flip_publish_box a {
+    display: inline-block;
+    /* background: #1b5bf9; */
+    color: #fff;
+	margin-left: -4px;
+    height: 35px;
+    vertical-align: top;
+    width: 35px;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+
+
+.flip_setting_box h1 {
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 6px 14px;
+    text-align: left;
+    margin-bottom: 15px;
+	margin-top: 0;
+}
+
+.flip_setting_box1 .flip_tool_opt {
+    display: inline-block;
+    width: 100%;
+}
+.flip_setting_box1 .flip_tool_opt ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.flip_setting_box1 .flip_tool_opt ul li {
+    list-style: none;
+    display: inline-block;
+    width: 32.8%;
+    border: 1px solid #a9e8e2;
+    float: left;
+    margin: 2px;
+    padding: 6px;
+}
+.flip_setting_box1 .flip_tool_opt ul li h6 {
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+    text-align: left;
+}
+.flip_tool_opt h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #545454;
+}
+.flip_tool_opt h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/***************************** on off switch css start *****************************/
+.flip_toggle-label {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #8bb8ef;
+    margin: 0;
+    width: 100px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.flip_toggle-label input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.flip_toggle-label input[type=checkbox]+.flip_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #8bb8ef;
+    transition: background 150ms linear;
+	left: 0;
+}
+.flip_toggle-label input[type=checkbox]:checked+.flip_back {
+  background: #1b5bf9;
+}
+.flip_toggle-label input[type=checkbox]+.flip_back .flip_toggle {
+    display: block;
+    position: absolute;
+    content: ' ';
+    background: #fff;
+    width: 50%;
+    height: 100%;
+    transition: margin 150ms linear;
+    border-radius: 0;
+}
+.flip_toggle-label input[type=checkbox]:checked+.flip_back .flip_toggle {
+    margin-left: 49px;
+}
+.flip_toggle-label .flip_label {
+    display: block;
+    position: absolute;
+    width: 50%;
+    color: #ddd;
+    line-height: 29px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 500;
+    border-radius: 0px;
+    white-space: inherit;
+}
+.flip_toggle-label .flip_label.flip_on {
+	left: 0px;
+}
+.flip_toggle-label .flip_label.flip_off {
+	right: 0px;
+}
+.flip_toggle-label input[type=checkbox]:checked+.flip_back .flip_label.flip_on {
+  color: #fff;
+}
+.flip_toggle-label input[type=checkbox]+.flip_back .flip_label.flip_off {
+  color: #fff;
+}
+.flip_toggle-label input[type=checkbox]:checked+.flip_back .flip_label.flip_off {
+  color: #ddd;
+}
+
+/***************************** on off switch css end *****************************/
+
+.flip_tool_color {
+    float: left;
+    width: 21%;
+    text-align: left;
+    padding: 0 20px 0 0;
+}
+.flip_tool_align {
+    width: 79%;
+    text-align: left;
+    float: right;
+    padding-left: 25px;
+    border-left: 1px solid #8bb8ef;
+}
+.flip_setting_box2 .flip_tool_opt h3 {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+
+/***************************** display setting radio button css start *****************************/
+.flip_funkyradio input[type="radio"]:empty, .flip_funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.flip_funkyradio input[type="radio"]:empty ~ label, .flip_funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 30px;
+    text-indent: 45px;
+    /* margin-top: 2em; */
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.flip_funkyradio input[type="radio"]:empty ~ label:before, .flip_funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 30px;
+    background: #D1D3D4;
+    /* border-radius: 3px 0 0 3px; */
+}
+.flip_funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .flip_funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: 7px;
+    color: #C2C2C2;
+}
+.flip_funkyradio input[type="radio"]:hover:not(:checked) ~ label, .flip_funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.flip_funkyradio input[type="radio"]:checked ~ label:before, .flip_funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: 8px;
+    color: #fff;
+    background-color: #1b5bf9;
+}
+.flip_funkyradio input[type="radio"]:checked ~ label, .flip_funkyradio input[type="checkbox"]:checked ~ label {
+    color: #1c5df8;
+}
+.flip_funkyradio input[type="radio"]:focus ~ label:before, .flip_funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.flip_funkyradio-default input[type="radio"]:checked ~ label:before, .flip_funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #1b5bf9;
+}
+.flip_funkyradio-primary input[type="radio"]:checked ~ label:before, .flip_funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.flip_funkyradio-success input[type="radio"]:checked ~ label:before, .flip_funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.flip_funkyradio-danger input[type="radio"]:checked ~ label:before, .flip_funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.flip_funkyradio-warning input[type="radio"]:checked ~ label:before, .flip_funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.flip_funkyradio-info input[type="radio"]:checked ~ label:before, .flip_funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+#horizontalOptions, #verticalOptions {
+    padding: 15px 0 0 0px;
+}
+#horizontalOptions label, #verticalOptions label {
+    line-height: 25px;
+    min-width: auto;
+    margin: 0;
+    font-size: 13px;
+    height: 25px;
+}
+.flip_funkyradio #horizontalOptions input[type="radio"]:empty ~ label:before,
+.flip_funkyradio #horizontalOptions input[type="checkbox"]:empty ~ label:before,
+.flip_funkyradio #verticalOptions input[type="radio"]:empty ~ label:before,
+.flip_funkyradio #verticalOptions input[type="checkbox"]:empty ~ label:before {
+    width: 25px;
+}
+.flip_funkyradio #horizontalOptions input[type="radio"]:checked ~ label:before,
+.flip_funkyradio #horizontalOptions input[type="checkbox"]:checked ~ label:before,
+.flip_funkyradio #verticalOptions input[type="radio"]:checked ~ label:before,
+.flip_funkyradio #verticalOptions input[type="checkbox"]:checked ~ label:before {
+    text-indent: 7px;
+}
+.flip_setting_box2 .flip_tool_align ul {
+	margin: 0;
+	padding: 0;
+}
+.flip_setting_box2 .flip_tool_align ul li {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.flip_funkyradio .flip_funkyradio-default label {
+    min-width: 220px;
+    border-radius: 0px;
+    border: 1px solid #a9e8e2;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+/***************************** display setting radio button css end *****************************/
+.flip_setting_box3 {
+    text-align: left;
+    margin-bottom: 0;
+}
+.flip_setting_box3 .flip_tool_opt ul li {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.flip_setting_box3 .flip_tool_opt h3 {
+    margin-bottom: 8px;
+}
+.flip_setting_box3 button.flip_upload-btn {
+    color: #fff;
+    border-radius: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 30px;
+    padding: 0 11px;
+}
+.flip_selectColor {
+    padding: 15px 0 0 0px;
+}
+.flip_setting_box input[type="color"] {
+    border: 1px solid #8bb8ef;
+    background: #fff;
+    padding: 0 2px;
+    width: 110px;
+    height: 27px;
+}
+
+div#bgimageOptions {
+    padding: 20px 0 0 0;
+}
+div#bgimageOptions select {
+    border: 1px solid #8bb8ef;
+    height: 30px;
+    margin: 20px 0;
+    width: 100%;
+}
+div#bgimageOptions small {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+div#bgimageOptions h4 {
+    display: block;
+    margin: 0 0 10px 0;
+}
+.flip_tool_opt h3.flip_set_head span {
+    background: #1c5df9;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+    color: #ffffff;
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.flip_finish_box h4 {
+    font-size: 65px;
+    color: #1f62f7;
+    font-weight: 700;
+    background: linear-gradient(330deg, #001f5d 0%, #2770f3 25%, #46aae2 50%, #63dfd3 75%, #57ffee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.flip_finish_box p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+.flip_finish_box p strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+.flip_finish_box a {
+    border-radius: 0px;
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+    display: inline-block;
+    margin: 30px 0 20px 0;
+    line-height: normal;
+	text-decoration: none;
+	outline: none;
+}
+.flip_finish_box a:hover, 
+.flip_finish_box a:focus, 
+.flip_finish_box a.focus,
+.flip_finish_box a:active,
+.flip_finish_box a.active {
+    color: #fff;
+	background: #64e1d3;
+    background: -moz-linear-gradient(45deg, #64e1d3 0%, #1b5bf9 100%);
+    background: -webkit-linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    background: linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64e1d3', endColorstr='#1b5bf9',GradientType=1 );
+	box-shadow: none;
+}
+.flip_finish_box a i {
+    margin: 0 10px 0 0;
+}
+.flip_widget_box {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.flip_ui-icon {
+    position: absolute;
+    top: 30px;
+    left: 14px;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+.ui-button.ui-state-disabled:hover,
+.ui-button.ui-state-disabled:active {
+	border: 1px solid rgba(139, 184, 239, 0.45);
+    background: #f1f9fd;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: none;
+    background: #1b5bf9;
+    background: -moz-linear-gradient(45deg, #1b5bf9 0%, #64e1d3 100%);
+    background: -webkit-linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    background: linear-gradient(45deg, #1b5bf9 0%,#64e1d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b5bf9', endColorstr='#64e1d3',GradientType=1 );
+}
+.ui-state-active small,
+.ui-widget-content .ui-state-active small,
+.ui-widget-header .ui-state-active small,
+a.ui-button:active small,
+.ui-button:active small,
+.ui-button.ui-state-active:hover small {
+    color: #ffffff;
+}
+.ui-accordion .ui-accordion-header {
+    padding: 10px 15px 10px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 0px;
+}
+.ui-accordion .ui-accordion-header small {
+    display: block;
+    margin: 10px 0 0 0;
+    text-transform: initial;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #a9e8e2;
+}
+.ui-accordion .ui-accordion-content h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #636363;
+    margin: 0 0 10px 0;
+}
+.ui-accordion .ui-accordion-content textarea {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 130px;
+    background: #f8f8f8;
+    outline: none;
+    padding: 20px;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    line-height: 24px;
+}
+.flip_custom_ele {
+    width: 50%;
+    margin: 0 0 20px 0;
+    border: 1px solid #d0d0d0;
+}
+.flip_custom_ele input {
+    border: none;
+    width: 65%;
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+.flip_custom_ele select {
+    height: 40px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 1px solid #d0d0d0;
+    width: 34%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding: 0 10px;
+}
+
+
+.flip_wrap {
+    margin: 30px auto;
+    overflow: hidden;
+}
+.flip_wrap .col-md-12 {
+    padding-right: 30px;
+}
+.flip_main_box{
+	padding: 30px;
+    width: 100%;
+    float: left;
+}
+.flip_main_bg{
+	width: 100%;
+    float: left;
+}
+
+.flip_create_flip button:hover, 
+.flip_create_flip button:focus, 
+.flip_create_flip button.focus,
+.flip_create_flip button:active,
+.flip_create_flip button.active {
+	color: #fff;
+	background: #64e1d3;
+    background: -moz-linear-gradient(45deg, #64e1d3 0%, #1b5bf9 100%);
+    background: -webkit-linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    background: linear-gradient(45deg, #64e1d3 0%,#1b5bf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64e1d3', endColorstr='#1b5bf9',GradientType=1 );
+}
+
+.flip_file-upload form#DropZoneFiddle {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+.flip_file-upload form#pdf_file_upload {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+.flip_file-upload .dz-default.dz-message {
+    margin: 0;
+}

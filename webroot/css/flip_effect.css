@@ -1,0 +1,958 @@
+.flip_hover, .flip_hover .flip_overlay {
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+.flip_hover, .flip_hover h2 {
+	text-align: center
+}
+.flip_ehover11 .flip_overlay::before, .flip_ehover12 h2::after, .flip_ehover7 .flip_overlay::before {
+	content: ''
+}
+.modal-body p, pre {
+	text-transform: none;
+	letter-spacing: 0
+}
+.flip_titlep {
+	letter-spacing: 0;
+	padding-bottom: 60px;
+	font-size: 18px
+}
+.flip_breath {
+	padding-top: 80px
+}
+.flip_topinfo {
+	position: absolute;
+	bottom: 1px;
+	left: 96px
+}
+.flip_page-header {
+	display: inline-block;
+	margin: 40px 0 20px;
+	border: 1px solid #eee;
+	padding: 15px;
+	border-radius: 12px
+}
+.modal-content {
+	color: #000
+}
+.modal-body p {
+	font-size: 16px
+}
+.flip_hover button.flip_info, .flip_hover h2 {
+	text-transform: uppercase;
+	color: #fff
+}
+.flip_hover {
+	float: left;
+	position: relative;
+	cursor: default
+}
+.flip_hover .flip_overlay {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+.flip_hover img {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.flip_ehover10 button, .flip_hover button.flip_info {
+	display: inline-block
+}
+.flip_hover h2 {
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, .6)
+}
+.flip_hover button.flip_info {
+	text-decoration: none;
+	padding: 7px 14px;
+	border: 1px solid #fff;
+	margin: 50px 0 0;
+	border-radius: 0;
+	background-color: transparent
+}
+.flip_hover button.flip_info:hover {
+	box-shadow: 0 0 5px #fff
+}
+.flip_ehover5 button.flip_info:hover, .flip_hover button.flip_nullbutton:hover {
+	box-shadow: none
+}
+.flip_hover button.flip_nullbutton {
+	border: none;
+	padding: 0;
+	margin: 0
+}
+.flip_ehover4 button.flip_info, .flip_ehover42 button.flip_info {
+	margin: -55px 0 0;
+	padding: 73px 90px;
+	font-weight: 400;
+	border: 1px solid #fff
+}
+.modal-open .modal, button:focus {
+	outline: 0!important
+}
+.flip_point {
+	cursor: pointer
+}
+.flip_ehover1 img {
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear
+}
+.flip_ehover1 .flip_overlay {
+	opacity: 0;
+	background-color: rgba(0, 0, 0, .5);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
+}
+.flip_ehover1 h2 {
+	-webkit-transform: translatey(-100px);
+	transform: translatey(-100px);
+	opacity: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+}
+.flip_ehover1 button.flip_info {
+	opacity: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+}
+.flip_ehover1:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+.flip_ehover1:hover .flip_overlay {
+	opacity: 1
+}
+.flip_ehover1:hover button.flip_info, .flip_ehover1:hover h2 {
+	opacity: 1;
+	-webkit-transform: translatey(0);
+	transform: translatey(0)
+}
+.flip_ehover1:hover button.flip_info {
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s
+}
+.flip_ehover2 img {
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in
+}
+.flip_ehover2 .flip_overlay {
+	background-color: rgba(0, 0, 0, .6);
+	opacity: 0;
+	-webkit-transform: translate(460px, -100px) rotate(180deg);
+	transform: translate(460px, -100px) rotate(180deg);
+	-webkit-transition: all .2s .4s ease-in-out;
+	transition: all .2s .4s ease-in-out
+}
+.flip_ehover2 button.flip_info, .flip_ehover9 h2 {
+	-webkit-transform: translateY(-200px)
+}
+.flip_ehover2 button.flip_info {
+	transform: translateY(-200px);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+}
+.flip_ehover2:hover .flip_overlay {
+	opacity: 1;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0)
+}
+.flip_ehover2:hover h2 {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition-delay: .5s;
+	transition-delay: .5s
+}
+.flip_ehover2:hover button.flip_info, .flip_ehover9:hover h2 {
+	-webkit-transform: translateY(0);
+	-webkit-transition-delay: .3s
+}
+.flip_ehover2:hover button.flip_info {
+	transform: translateY(0);
+	transition-delay: .3s
+}
+.flip_ehover3 img {
+	-webkit-transition: all .4s ease-in;
+	transition: all .4s ease-in
+}
+.flip_ehover3 button.flip_info, .flip_ehover3 h2 {
+	-webkit-transform: scale(.7);
+	transform: scale(.7);
+	-webkit-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+	opacity: 0
+}
+.flip_ehover4 .flip_overlay, .flip_ehover4 h2 {
+	-webkit-transition: all .4s ease-in-out
+}
+.flip_ehover3:hover img {
+	filter: grayscale(1) blur(3px);
+	-webkit-filter: grayscale(1) blur(3px);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+.flip_ehover3:hover button.flip_info, .flip_ehover3:hover h2 {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.flip_ehover4 h2 {
+	-webkit-transform: translateY(55px);
+	transform: translateY(55px);
+	transition: all .4s ease-in-out
+}
+.flip_ehover4:hover h2 {
+	-webkit-transform: translateY(15px);
+	transform: translateY(15px)
+}
+.flip_ehover4 .flip_overlay {
+	background-color: rgba(75, 75, 75, .7);
+	transition: all .4s ease-in-out
+}
+.flip_ehover4:hover .flip_overlay {
+	background-color: rgba(48, 152, 157, .4)
+}
+.flip_ehover4 button.flip_info {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
+}
+.flip_ehover42 .flip_overlay, .flip_ehover42 h2 {
+	-webkit-transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover4:hover button.flip_info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.flip_ehover42 h2 {
+	-webkit-transform: translateY(55px);
+	transform: translateY(55px);
+	transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover42:hover h2 {
+	-webkit-transform: translateY(15px);
+	transform: translateY(15px)
+}
+.flip_ehover42 .flip_overlay {
+	background-color: rgba(75, 75, 75, .7);
+	transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover1v2 img, .flip_ehover42 button.flip_info {
+	-webkit-transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover42:hover .flip_overlay {
+	background-color: rgba(48, 152, 157, .4)
+}
+.flip_ehover42 button.flip_info {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover42:hover button.flip_info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.flip_ehover1v2 img {
+	transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover1v2 .flip_overlay {
+	opacity: 0;
+	background-color: rgba(0, 0, 0, .5);
+	-webkit-transition: all .4s cubic-bezier(.88, -.99, 0, 1.81);
+	transition: all .4s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover1v2 h2 {
+	-webkit-transform: translatey(-100px);
+	transform: translatey(-100px);
+	opacity: 0;
+	-webkit-transition: all .2s cubic-bezier(.88, -.99, 0, 1.81);
+	transition: all .2s cubic-bezier(.88, -.99, 0, 1.81)
+}
+.flip_ehover1v2 button.flip_info {
+	opacity: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+}
+.flip_ehover1v2:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+.flip_ehover1v2:hover .flip_overlay {
+	opacity: 1
+}
+.flip_ehover1v2:hover button.flip_info, .flip_ehover1v2:hover h2 {
+	opacity: 1;
+	-webkit-transform: translatey(0);
+	transform: translatey(0)
+}
+.flip_ehover1v2:hover button.flip_info {
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s
+}
+.flip_ehover5 h2, .flip_ehover5 img {
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
+}
+.flip_ehover5 img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+.flip_ehover5:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.flip_ehover5 .flip_overlay {
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
+}
+.flip_ehover5:hover .flip_overlay {
+	background-color: rgba(170, 170, 170, .4)
+}
+.flip_ehover5 button.flip_info {
+	opacity: 0;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	font-weight: 400;
+	border: 1px solid #fff;
+	height: 85%;
+	width: 85%;
+	position: absolute;
+	top: -20%;
+	left: 8%;
+	padding: 70px
+}
+.flip_ehover6 h2, .flip_ehover6 hr, .flip_group1, .flip_group2 {
+	left: 50%;
+	position: absolute;
+	-webkit-transition: opacity .35s, -webkit-transform .35s
+}
+.flip_ehover5:hover button.flip_info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	background-color: rgba(0, 0, 0, .4)
+}
+.flip_ehover6 h2, .flip_ehover6 hr, .flip_ehover7 h2, .flip_ehover7 p, .flip_group1, .flip_group2 {
+	background-color: transparent;
+	margin: 0
+}
+.flip_ehover6 .flip_rotate {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0
+}
+.flip_ehover6 hr {
+	width: 50%;
+	opacity: 0;
+}
+.flip_ehover6 hr:nth-child(2) {
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate(0) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate(0) scale3d(0, 0, 1)
+}
+.flip_ehover6 hr:nth-child(3) {
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1)
+}
+.flip_ehover6 h2, .flip_ehover6 hr {
+	top: 50%;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%
+}
+.flip_group1, .flip_group2 {
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	padding: 0;
+	letter-spacing: 0
+}
+.flip_group1 {
+	top: 40%
+}
+.flip_group2 {
+	top: 60%
+}
+.flip_ehover6 h2 {
+	width: 100%
+}
+.flip_ehover6 p {
+	width: 54%;
+	text-transform: none;
+	font-size: 15px;
+	line-height: 2
+}
+.flip_ehover6 p a {
+	color: #fff
+}
+.flip_ehover6 p a:focus, .flip_ehover6 p a:hover {
+	opacity: .6
+}
+.flip_ehover6 a i {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	padding: 10px;
+	font-size: 20px
+}
+.flip_ehover7 p, .flip_ehover8 p {
+	text-transform: none;
+	font-size: 15px;
+	line-height: 2
+}
+.flip_group1 a:first-child i {
+	-webkit-transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+	transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2)
+}
+.flip_group1 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+	transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2)
+}
+.flip_group2 a:first-child i {
+	-webkit-transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+	transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2)
+}
+.flip_group2 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+	transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2)
+}
+.flip_ehover6:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1);
+	transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1)
+}
+.flip_ehover6:hover hr:nth-child(2) {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate(0) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate(0) scale3d(1, 1, 1)
+}
+.flip_ehover6:hover hr:nth-child(3) {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1)
+}
+.flip_ehover6:hover .flip_group1 i:empty, .flip_ehover6:hover .flip_group2 i:empty {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0) rotate(45deg) scale(1);
+	opacity: 1
+}
+.flip_ehover6 img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all .35s;
+	transition: all .35s
+}
+.flip_ehover7 .flip_overlay::before, .flip_ehover7 h2, .flip_ehover7 p {
+	position: absolute;
+	left: 50%;
+	-webkit-transition: opacity .35s, -webkit-transform .35s
+}
+.flip_ehover6:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	filter: brightness(.7);
+	-webkit-filter: brightness(.7)
+}
+.flip_ehover7 h2, .flip_ehover7 p, .flip_ehover8 h2, .flip_ehover8 hr {
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0)
+}
+.flip_ehover7 h2, .flip_ehover7 p {
+	transition: opacity .35s, transform .35s;
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	padding: 0
+}
+.flip_ehover7 .flip_overlay::before {
+	top: 50%;
+	width: 40%;
+	height: 60%;
+	border: 2px solid #fff;
+	opacity: 0;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%
+}
+.flip_ehover7 p {
+	width: 20%
+}
+.flip_ehover7 p a {
+	color: #fff
+}
+.flip_ehover7 p a:focus, .flip_ehover7 p a:hover {
+	opacity: .6
+}
+.flip_ehover7 a i {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	padding: 0 5px
+}
+.flip_ehover7 p a:first-child i {
+	-webkit-transform: translate3d(-60px, -60px, 0);
+	transform: translate3d(-60px, -60px, 0)
+}
+.flip_ehover7 p a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, -60px, 0);
+	transform: translate3d(60px, -60px, 0)
+}
+.flip_ehover7 p a:nth-child(3) i {
+	-webkit-transform: translate3d(-60px, 60px, 0);
+	transform: translate3d(-60px, 60px, 0)
+}
+.flip_ehover7 p a:nth-child(4) i {
+	-webkit-transform: translate3d(60px, 60px, 0);
+	transform: translate3d(60px, 60px, 0)
+}
+.flip_ehover7:hover .flip_overlay::before {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, .2);
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -135deg) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -135deg) scale3d(1, 1, 1)
+}
+.flip_ehover8 h2, .flip_ehover8 hr, .flip_set1, .flip_set2 {
+	left: 50%;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	background-color: transparent;
+	position: absolute;
+	margin: 0
+}
+.flip_ehover7:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1);
+	transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1)
+}
+.flip_ehover7:hover p i:empty {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	opacity: 1
+}
+.flip_ehover8 hr {
+	width: 40%;
+	opacity: 0;
+	border: 1px solid #FFF
+}
+.flip_ehover8 hr:nth-child(3) {
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 90deg) scale3d(0, 0, 1)
+}
+.flip_ehover8 hr:nth-child(4) {
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 180deg) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, 180deg) scale3d(0, 0, 1)
+}
+.flip_ehover8 h2, .flip_ehover8 hr {
+	transition: opacity .35s, transform .35s;
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%
+}
+.flip_set1, .flip_set2 {
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	padding: 0
+}
+.flip_set1 {
+	top: 40%
+}
+.flip_set2 {
+	top: 60%
+}
+.flip_ehover8 p {
+	width: 30%
+}
+.flip_ehover8 p a {
+	color: #fff
+}
+.flip_ehover8 p a:focus, .flip_ehover8 p a:hover {
+	opacity: .6
+}
+.flip_ehover8 a i {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	padding: 10px;
+	font-size: 20px
+}
+.flip_set1 a:first-child i {
+	-webkit-transform: translate3d(-60px, -60px, 0);
+	transform: translate3d(-60px, -60px, 0)
+}
+.flip_set1 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, -60px, 0);
+	transform: translate3d(60px, -60px, 0)
+}
+.flip_set2 a:first-child i {
+	-webkit-transform: translate3d(-60px, 60px, 0);
+	transform: translate3d(-60px, 60px, 0)
+}
+.flip_set2 a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, 60px, 0);
+	transform: translate3d(60px, 60px, 0)
+}
+.flip_ehover8:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1);
+	transform: translate3d(-50%, -50%, 0) scale3d(.8, .8, 1)
+}
+.flip_ehover8:hover hr:nth-child(3) {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -90deg) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -90deg) scale3d(1, 1, 1)
+}
+.flip_ehover8:hover hr:nth-child(4) {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -180deg) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -180deg) scale3d(1, 1, 1)
+}
+.flip_ehover8:hover .set1 i:empty, .flip_ehover8:hover .set2 i:empty {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	opacity: 1
+}
+.flip_ehover9 .flip_overlay {
+	background-color: rgba(255, 255, 255, .7);
+	top: -200px;
+	opacity: 0;
+	-webkit-transition: all .1s ease-out .5s;
+	transition: all .1s ease-out .5s
+}
+.flip_ehover9 h2 {
+	transform: translateY(-200px);
+	-webkit-transition: all ease-in-out .1s;
+	transition: all ease-in-out .1s;
+	-webkit-transition-delay: .3s;
+	transition-delay: .3s
+}
+.flip_ehover9 button.flip_info {
+	-webkit-transform: translateY(-200px);
+	transform: translateY(-200px);
+	color: #000;
+	border: 1px solid #000;
+	-webkit-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s
+}
+.flip_ehover10 .flip_overlay, .flip_ehover10 img {
+	-webkit-transition: -webkit-transform .35s
+}
+.flip_ehover9:hover .flip_overlay {
+	opacity: 1;
+	top: 0;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s
+}
+.flip_ehover9:hover h2 {
+	transform: translateY(0);
+	transition-delay: .3s
+}
+.flip_ehover9:hover button.flip_info {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	box-shadow: 0 0 5px #000;
+	color: #000;
+	border: 1px solid #000;
+	-webkit-transition-delay: .3s;
+	transition-delay: .3s
+}
+.flip_ehover10 img {
+	transition: transform .35s
+}
+.flip_ehover10:hover img {
+	-webkit-transform: translate3d(0, -10%, 0);
+	transform: translate3d(0, -10%, 0)
+}
+.flip_ehover10 .flip_overlay {
+	visibility: hidden;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #79FAC4;
+	color: #3c4a50;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0)
+}
+.flip_ehover10 button.flip_info {
+	float: left;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 17px;
+	background: rgba(0, 0, 0, .6)
+}
+.flip_ehover10 p.flip_icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em
+}
+.flip_ehover10:hover p.flip_icon-links a:focus, .flip_ehover10:hover p.flip_icon-links a:hover {
+	color: #252d31
+}
+.flip_ehover10 button, .flip_ehover10 p.flip_icon-links a {
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0, 200%, 0);
+	transform: translate3d(0, 200%, 0)
+}
+.flip_ehover11 .flip_overlay::before, .flip_ehover11 img {
+	-webkit-transition: opacity .35s, -webkit-transform .45s
+}
+.flip_ehover10 p.flip_icon-links a span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.flip_ehover10:hover .flip_overlay, .flip_ehover10:hover button, .flip_ehover10:hover p.flip_icon-links a {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible
+}
+.flip_ehover10:hover h2 {
+	-webkit-transition-delay: .05s;
+	transition-delay: .05s
+}
+.flip_ehover10:hover p.flip_icon-links a:nth-child(3) {
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s
+}
+.flip_ehover10:hover p.flip_icon-links a:nth-child(2) {
+	-webkit-transition-delay: .15s;
+	transition-delay: .15s
+}
+.flip_ehover10:hover p.flip_icon-links a:first-child {
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s
+}
+.flip_ehover11 {
+	background: -webkit-linear-gradient(45deg, #ff89e9 0, #05abe0 100%);
+	background: linear-gradient(45deg, #ff89e9 0, #05abe0 100%)
+}
+.flip_ehover11 img {
+	max-width: none;
+	width: calc(100% + 60px);
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-40px, 0, 0);
+	transform: translate3d(-40px, 0, 0)
+}
+.flip_ehover11 .flip_overlay::before {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 1px solid #fff;
+	opacity: 0;
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-20px, 0, 0);
+	transform: translate3d(-20px, 0, 0)
+}
+.flip_ehover11 .flip_overlay {
+	padding: 3em;
+	text-align: left
+}
+.flip_ehover11 h2 {
+	background-color: transparent;
+	padding: 15% 0 10px;
+	text-align: left
+}
+.flip_ehover11 button.flip_info {
+	color: #FFF;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	-webkit-transition: opacity .35s, -webkit-transform .45s;
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0)
+}
+.flip_ehover11:hover img {
+	opacity: .6;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover11:hover .flip_overlay::before, .flip_ehover11:hover button.flip_info {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover12 {
+	background: #42b078
+}
+.flip_ehover12 img {
+	max-width: none;
+	width: calc(100% + 20px);
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+.flip_ehover12:hover img {
+	opacity: .4;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover12 .flip_overlay {
+	padding: 50px 20px
+}
+.flip_ehover12 h2 {
+	position: relative;
+	overflow: hidden;
+	padding: .5em 0;
+	background-color: transparent
+}
+.flip_ehover12 h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0)
+}
+.flip_ehover12:hover h2::after {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover12 button {
+	color: #FFF;
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0)
+}
+.flip_ehover12:hover button {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover13 img {
+	-webkit-transition: all .35s;
+	transition: all .35s
+}
+.flip_ehover13 .flip_overlay, .flip_ehover13 button {
+	-webkit-transition: opacity .35s, -webkit-transform .35s
+}
+.flip_ehover13:hover img {
+	filter: brightness(.6);
+	-webkit-filter: brightness(.6)
+}
+.flip_ehover13 .flip_overlay {
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: scale(0, 1);
+	transform: scale(0, 1)
+}
+.flip_ehover13:hover .flip_overlay {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.flip_ehover13 button, .flip_ehover13 h2 {
+	opacity: 0;
+	color: #FFF;
+	padding: 1em 0
+}
+.flip_ehover13 button {
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0)
+}
+.flip_ehover13 h2 {
+	background-color: transparent;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0)
+}
+.flip_ehover13:hover button, .flip_ehover13:hover h2 {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.flip_ehover14 img {
+	-webkit-transition: all .35s;
+	transition: all .35s
+}
+.flip_ehover14 .flip_overlay, .flip_ehover14 button {
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	opacity: 0
+}
+.flip_ehover14:hover img {
+	filter: brightness(1.4);
+	-webkit-filter: brightness(1.4)
+}
+.flip_ehover14 .flip_overlay {
+	width: 55%;
+	height: 81%;
+	left: 22%;
+	top: 10%;
+	border-radius: 80%;
+	border: 2px solid #FFF;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(50%, 50%, 0);
+	transform: translate3d(50%, 50%, 0)
+}
+.flip_ehover14:hover .flip_overlay {
+	background-color: rgba(0, 0, 0, .3)
+}
+.flip_ehover14 button {
+	color: #FFF;
+	padding: 1em 0;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-150%, -400%, 0);
+	transform: translate3d(-150%, -400%, 0)
+}
+.flip_ehover14 h2 {
+	background-color: transparent;
+	color: #FFF;
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-150%, -400%, 0);
+	transform: translate3d(-150%, -400%, 0)
+}
+.flip_ehover14:hover .flip_overlay, .flip_ehover14:hover button, .flip_ehover14:hover h2 {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
